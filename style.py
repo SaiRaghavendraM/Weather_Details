@@ -16,9 +16,3 @@ class Color(Enum):
 
 def change_color(color: Color) -> None:
     print(color.value, end="")
-
-# Example usage:
-# change_color(Color.RED)
-# print("This text will be red.")
-# change_color(Color.RESET)
-     
